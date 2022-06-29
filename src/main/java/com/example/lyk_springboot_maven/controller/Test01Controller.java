@@ -14,7 +14,7 @@ public class Test01Controller {
     @RequestMapping("/method01")
     public Map getTest(){
         Map map=new HashMap();
-        map.put("login","success");
+        map.put("login","我也是醉了");
         return map;
     }
 }
